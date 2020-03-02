@@ -1,0 +1,21 @@
+{
+  "name": "Project_1.0_Personal_Blog",
+  "version": "1.0.0",
+  "description": "build without framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog/issues"
+  },
+  "homepage": "https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog#readme"
+}
