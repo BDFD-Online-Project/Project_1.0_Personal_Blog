@@ -4,8 +4,8 @@
   "description": "build without framework",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon ./bin/www",
+    "production": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog/issues"
   },
-  "homepage": "https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog#readme"
+  "homepage": "https://github.com/BDFD-Online-Project/Project_1.0_Personal_Blog#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
